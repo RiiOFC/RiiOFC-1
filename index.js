@@ -93,7 +93,7 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
+                console.l(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -115,7 +115,7 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
                 break;
 
             } else if (result.includes('User')) {
@@ -127,12 +127,12 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
                 const tokenPass = data.User.BattlePass.PassTokens;
                 const trophy = data.User.SkillRating;
                 
-                console.log(chalk.green(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} |  ${chalk.blue(`Pass Star : ${tokenPass}`)}  | ${chalk.blue(`Trophy : ${trophy}`)}`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} |  ${chalk.blue(`Pass Star : ${tokenPass}`)}  | ${chalk.blue(`Trophy : ${trophy}`)}`));
                 await delay(time)
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA!!!`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA!!!`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -154,7 +154,7 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
                 break;
 
             } else if (result.includes('User')) {
@@ -166,12 +166,12 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
                 const tokenPass = data.User.BattlePass.PassTokens;
                 const trophy = data.User.SkillRating;
                 
-                console.log(chalk.green(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} |  ${chalk.blue(`Pass Star : ${tokenPass}`)}  | ${chalk.blue(`Trophy : ${trophy}`)}`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} |  ${chalk.blue(`Pass Star : ${tokenPass}`)}  | ${chalk.blue(`Trophy : ${trophy}`)}`));
                 await delay(time)
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -193,7 +193,7 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
                 break;
 
             } else if (result.includes('User')) {
@@ -204,12 +204,12 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
                 const exp = data.User.Experience;
                 const tokenPass = data.User.BattlePass.PassTokens;
                 
-                console.log(chalk.green(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} | ${chalk.blue(`Pass Star : ${tokenPass}`)}`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} | ${chalk.blue(`Pass Star : ${tokenPass}`)}`));
                 await delay(time)
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -221,7 +221,7 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
 
     } else {
 
-        console.log(chalk.red(`\n[ ${moment().format('HH:mm:ss')} ] Wrong feature !`));
+        console.log(`\n[ ${moment().format('HH:mm:ss')} ] Wrong feature !`));
 
     }
     
