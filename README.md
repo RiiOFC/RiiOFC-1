@@ -1,1 +1,1 @@
-# RiiOFC-1
+Script Dupe & Exploit Crown & Trophy Stumble Guys
