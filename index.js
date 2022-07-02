@@ -74,7 +74,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired Cookie Try Again!`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired Cookie Try Again!`));
                 break;
 
             } else if (result.includes('User')) {
@@ -92,7 +92,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -131,7 +131,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA!!!`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA!!!`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -153,7 +153,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
                 break;
 
             } else if (result.includes('User')) {
@@ -170,7 +170,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -192,7 +192,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
                 break;
 
             } else if (result.includes('User')) {
@@ -208,7 +208,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -220,7 +220,7 @@ ${chalk.red('Indo : Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terken
 
     } else {
 
-        console.log(chalk.red(`\n[ ${moment().format('HH:mm:ss')} ] Wrong feature !`));
+        console.log(`\n[ ${moment().format('HH:mm:ss')} ] Wrong feature !`));
 
     }
     
