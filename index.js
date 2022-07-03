@@ -75,7 +75,7 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired Cookie Try Again!`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired Cookie Try Again!`));
                 break;
 
             } else if (result.includes('User')) {
@@ -93,7 +93,7 @@ ${chalk.red('ID: Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena B
 
             } else if (result == 'BANNED') {
 
-                console.l(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
+                console.log(`[ ${moment().format('HH:mm:ss')} ] Banned By KITKA !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
