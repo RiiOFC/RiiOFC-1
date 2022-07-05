@@ -9,6 +9,8 @@ HOW TO USE THE SCRIPT :
 - cd RiiOFC-1
 - npm i
 - node index
+
+
 Link Discord : https://discord.gg/cpH8Rc2v
 
 WhaatShap : 081247822525
