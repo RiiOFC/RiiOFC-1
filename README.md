@@ -1,1 +1,1 @@
-Link Discord : https://discord.gg/cpH8Rc2v
+HOW TO USE ?
