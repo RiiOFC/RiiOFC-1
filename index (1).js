@@ -46,7 +46,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 └───────────────────────────────────────────────────────────────────────────┘
       
     `)}
-${chalk.red('By : 𝓡𝓲𝓲𝓞𝓕𝓒  -')} ${chalk.red('Script Dupe Crown & Trophy)}
+${chalk.red('By : 𝓡𝓲𝓲𝓞𝓕𝓒  -')} ${chalk.red('Script Dupe Crown & Trophy')}
 ${chalk.yellow('Discord : https://discord.gg/cpH8Rc2v')}
 ${chalk.yellow('WhaatShap : 081247822525')}
 ${chalk.yellow('Website : https://github.com/RiiOFC')}
@@ -59,7 +59,7 @@ ${chalk.redBright('2. Reward : 20 Trophy + 30 Star ( Stumble Pass ) + 1500 EXP')
 ${chalk.redBright('3. Reward : 10 Trophy + 25 Star ( Stumble Pass ) + 500 EXP')}
 ${chalk.redBright('4. Reward : 20 Star ( Stumble Pass ) + 100 EXP')}
 
-${chalk.blue('Pilihlah Reward Sesuai Apa Yang Kamu Butuhkan , Jika Kamu Membutuhkan Crown & Trophy Maka Kamu Harus Menang Di Stumble Guys Dan Mendapatkan Crown & Trophy.
+${chalk.blue('Pilihlah Reward Sesuai Apa Yang Kamu Butuhkan , Jika Kamu Membutuhkan Crown & Trophy Maka Kamu Harus Menang Di Stumble Guys Dan Mendapatkan Crown & Trophy.')}
 
 ${chalk.red('Warning !')}
 ${chalk.red('Jangan Gunakan Delay 1000-4000 Karna Akun Kalian Akan Terkena Ban , Jika Ingin Aman Gunakan Delay 6000-20000 Agar Akun Kalian SAFE !')}
