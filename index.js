@@ -27,7 +27,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 (async () => {
 
     console.log(`
-    $chalk.magentaBright(`
+    $chalk.magenta(`
 ███████╗████████╗██╗   ██╗███╗   ███╗██████╗ ██╗     ███████╗
 ██╔════╝╚══██╔══╝██║   ██║████╗ ████║██╔══██╗██║     ██╔════╝
 ███████╗   ██║   ██║   ██║██╔████╔██║██████╔╝██║     █████╗  
